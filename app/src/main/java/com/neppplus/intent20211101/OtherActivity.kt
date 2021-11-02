@@ -12,8 +12,9 @@ class OtherActivity : AppCompatActivity() {
 //        복귀버튼 눌리면 -> 메인화면으로 이동
         btnReturnToMain.setOnClickListener {
 
-            val myIntent = Intent( this, MainActivity::class.java  )
-            startActivity(myIntent)
+//            val myIntent = Intent( this, MainActivity::class.java  )
+//            startActivity(myIntent)
+            finish()
         }
     }
 }
