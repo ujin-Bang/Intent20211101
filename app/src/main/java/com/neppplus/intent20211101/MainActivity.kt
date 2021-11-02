@@ -20,5 +20,15 @@ class MainActivity : AppCompatActivity() {
 //            출발 도착 정보를 가지고 이동
             startActivity(myIntent)
         }
+
+        btnSendMessage.setOnClickListener {
+
+            val inputMessage = edtMessage.text.toString()
+
+            val myIntent = Intent(this, ViewMassgeActivity::class.java )
+//             필요한 데이터르 첨부하는 코드
+            myIntent.putExtra("message", inputMessage)
+            startActivity(myIntent)
+        }
     }
 }
