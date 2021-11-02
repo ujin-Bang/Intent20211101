@@ -21,7 +21,7 @@
         android:id="@+id/btnReturnToMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="메인화면으로 복귀"
+        android:text="메인화면으로 복귀"/>
 
 
 </LinearLayout>
